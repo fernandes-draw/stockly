@@ -2,6 +2,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { ProductTable } from '../Products/ProductTable';
 
 export default function AppTable() {
   return (
@@ -16,7 +17,9 @@ export default function AppTable() {
         </div>
       </CardHeader>
 
-      <CardContent></CardContent>
+      <CardContent>
+        <ProductTable />
+      </CardContent>
     </Card>
   );
 }

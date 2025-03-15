@@ -23,7 +23,6 @@ export default function Home() {
       <Card className='flex flex-col shadow-none p-2'>
         <AppHeader />
         <AppTable />
-        <ProductTable />
       </Card>
     </div>
   );
